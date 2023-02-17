@@ -1,0 +1,101 @@
+body {
+    background: #F5F5DC;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background:	#42426f;
+}
+
+.cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.img {
+    width: 250px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000000;
+    text-decoration: underline;
+} 
+
+/* Estilizando o main (formulario) */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #42426F;
+    color: #F5F5DC;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+}
+
+.enviar:hover {
+    background: darkorchid
+}
+
+
+
+/* Estilizando o foorter */
+
+footer {
+    background: #42426F;
+}
+
+.imagem {
+    width: 250px;
+    margin-left: 550px;
+    margin-right: auto;
+    
+}

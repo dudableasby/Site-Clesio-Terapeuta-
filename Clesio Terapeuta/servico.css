@@ -1,0 +1,99 @@
+body {
+    background: #F5F5DC;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background:	#42426f;
+}
+
+.cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.img {
+    width: 250px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffd700;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000000;
+    text-decoration: underline;
+} 
+
+/* Estilizando o main */
+
+.img2 {
+    width: 250px;
+}
+
+.servico {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servico li:hover {
+    border-color: #c78c19;
+}
+
+.servico li:active {
+    border-color: #088c19;
+}
+
+.servico li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.servico h2 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.descricao {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Estilizando o footer */
+
+footer {
+    background: #42426F;
+}
+
+.imagem {
+    width: 250px;
+    margin-left: 550px;
+    margin-right: auto;
+    
+}
